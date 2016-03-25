@@ -1,0 +1,22 @@
+## setting up the git folder
+
+1. Create folders
+data, write_up, figures and scripts (use making folder.R)
+
+2. set global options
+Tools > Global Options
+
+3. create a project
+File > New Project
+
+4. set project options for git
+(above tab mentioning "Environment") click the drop down next to project name
+and click project options > set Git
+Once done GIT (black, red, green icon) should appear in the file tool bar
+
+5. open shell from within rstudio, to see staus at any time, click Git, in project tool bar, next to Environment and History
+
+6. (in shell) git status
+see for reference: https://try.github.io/levels/1/challenges/13
+
+7. (in shell) 
