@@ -81,3 +81,11 @@ The name of our remote is origin and the default local branch name is master. Th
 it will prompt you for username and password, for git
 ---------------------------------------------
 
+14. git menu in rstudio does not work, when ever you want to make changes to the remore repo
+
+a) > git status
+b) > git add <changed file name>
+c) > git commit
+   (enter changes for commit)
+d) > git push -u origin master
+   (prompted for login and password)
