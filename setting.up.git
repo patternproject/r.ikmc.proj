@@ -89,3 +89,15 @@ c) > git commit
    (enter changes for commit)
 d) > git push -u origin master
    (prompted for login and password)
+
+---------------------------------------------
+
+To check first if you’ve already configured Git type
+>> git config --list 
+
+if nothing comes up it means nothing is configured. The only two things you really need to set are your name and email address. These can be set with the following Terminal commands, note replace YOUR NAME and YOUR EMAIL with the correct information:
+
+>> git config --global user.name "YOUR NAME"
+>> git config --global user.email "YOUR EMAIL"
+>> git config --list 
+
